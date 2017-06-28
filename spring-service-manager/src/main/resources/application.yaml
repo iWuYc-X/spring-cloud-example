@@ -1,0 +1,14 @@
+server:
+  port: 1111
+
+eureka:
+  instance:
+    hostname: microservice-manager
+  server: 
+    enable-self-preservation: false
+    evction-interval-timer-inms: 300000
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

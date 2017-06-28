@@ -1,0 +1,15 @@
+spring: 
+  profiles: 
+    active: test
+    
+spring:
+  application:
+    name: hello-service1
+eureka:
+  instance:
+    hostname: 192.168.31.128
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.31.131:1111/eureka/
+    #availability-zone: http://192.168.31.131:1111/eureka/
+    #region: iwuyc-hello

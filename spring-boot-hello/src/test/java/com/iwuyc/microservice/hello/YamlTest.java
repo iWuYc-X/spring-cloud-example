@@ -1,6 +1,5 @@
 package com.iwuyc.microservice.hello;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 

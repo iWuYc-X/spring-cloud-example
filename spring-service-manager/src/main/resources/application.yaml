@@ -6,7 +6,7 @@ eureka:
     hostname: microservice-manager
   server: 
     enable-self-preservation: false
-    evction-interval-timer-inms: 300000
+    evction-interval-timer-inms: 300000 #hello world
   client:
     register-with-eureka: false
     fetch-registry: false

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: order-northbound
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.31.131:1111/eureka/
+
+server:
+  port: 80    

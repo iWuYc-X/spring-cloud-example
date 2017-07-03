@@ -1,23 +1,20 @@
-package com.iwuyc.microservice;
+package com.iwuyc.microservice.rank;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.context.annotation.ComponentScan;
 
 /**
- * Hello world!
+ * Bootstrap
  *
  */
-@SpringBootApplication
-@ComponentScan(value = { "com.iwuyc.microservice" })
 @EnableDiscoveryClient
+@SpringBootApplication
 public class Bootstrap
 {
+
     public static void main(String[] args)
     {
         SpringApplication.run(Bootstrap.class, args);
     }
-
-  
 }

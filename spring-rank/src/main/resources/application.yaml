@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rank-service
+    
+eureka:
+  instance:
+    hostname: 192.168.31.128
+    instanceId: rank-service:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.31.131:1111/eureka/
+    

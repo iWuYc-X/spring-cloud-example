@@ -1,6 +1,6 @@
 # spring-cloud-example
 spring cloud示例
-```golang
+```go
 type Animal interface {
   Movable()
 }
